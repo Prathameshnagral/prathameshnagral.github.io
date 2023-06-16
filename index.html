@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prathamesh's Portfolio</title>
+    <link rel = "icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9e19ce58b0.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#portfolio">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+                
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>A Coding Nerd</p>
+                <h2>Hi, I'm <span>Prathamesh</span> Nagral<br>from Mumbai,India</h2>
+            
+            </div>
+        </div>
+    </div>
+
+    <!-----------ABOUT-------------->
+
+   <div id="about">
+       <div class="container">
+           <div class="row">
+               <div class="about-col-1">
+                <img src="images/headshot.png">
+               </div>
+               <div class="about-col-2">
+                   <h1 class="sub-title">About Me</h1>
+                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt explicabo quo, est tenetur eligendi repellendus recusandae commodi animi id pariatur hic in ex eum atque expedita! Officia quibusdam doloribus, repellat impedit quis nam optio.</p>
+                   
+                   <div class="tab-titles">
+                      <p class="tab-links active-link"onclick=" opentab('skills')">Skills</p>
+                      <p class="tab-links"onclick=" opentab('experience')">Experience</p>
+                      <p class="tab-links"onclick=" opentab('education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                      <ul>
+                            <li><span>Web Design</span><br>Web App Development</li>
+                            <li><span>Unity Engine</span><br>Game Development</li>
+                            <li><span>Android Studio</span><br>Android App Development</li>
+                            <li><span>Photography</span><br>Abstract Photography</li>
+                      </ul>
+                   </div>
+                   <div class="tab-contents" id="experience">
+                      <ul>
+                         <li><span>Zostel</span><br>Volunteering in old manali,India</li>
+                         <li><span>Delivery Management</span><br>Managing Delivery across all the Services</li>
+                      </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>BSc in Information Technology</span><br>Mumbai University</li>
+                        <li><span>Higher Secondary School Certificate</span><br>Mumbai University</li>
+                        <li><span>Secondary School Certificate</span><br>Maharastra State University</li>
+                    </ul>
+                   </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------SERVICES-------------->\
+   <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>Web Design</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero velit ullam, pariatur veritatis itaque animi ipsa impedit molestiae accusamus rem laboriosam beatae minima omnis! At magnam expedita fuga corrupti in?</p>
+                            <a href="#">learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-gamepad"></i>
+                            <h2>Game Development</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur 
+                                adipisicing elit.<br> Vero velit ullam, pariatur veritatis itaque animi ipsa impedit molestiae accusamus rem laboriosam beatae minima omnis! At magnam expedita fuga corrupti in?</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-terminal"></i>
+                            <h2>AI Prompting</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero velit ullam, pariatur veritatis itaque animi ipsa impedit molestiae accusamus rem laboriosam beatae minima omnis! At magnam expedita fuga corrupti in?</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-camera"></i>
+                            <h2>Photography</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero velit ullam, pariatur veritatis itaque animi ipsa impedit molestiae accusamus rem laboriosam beatae minima omnis! At magnam expedita fuga corrupti in?</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-shirt"></i>
+                            <h2>Clothing Design</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero velit ullam, pariatur veritatis itaque animi ipsa impedit molestiae accusamus rem laboriosam beatae minima omnis! At magnam expedita fuga corrupti in?</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                </div>
+        </div>
+    </div>
+
+   <!-------------PORTFOLIO-------------->
+   <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/web design.png">
+                    <div class="layer">
+                        <h3>Web Design</h3>
+                        <p>Creating this website was my introduction to the world of web development and in making the website I was able to learn a lot of key things when it came to designing another website </p>
+                         <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="images/Ghost start.png">
+                    <div class="layer">
+                        <h3>Game Design</h3>
+                        <p>Making a game is my childhood dream and learning with the Unity engine was my first step It was a great learning experience.I was able to create the basic flappy bird game in a day </p>
+                         <a  href="https://prathameshnagral.itch.io/flappy-ghost"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="images/pcb design.png">
+                    <div class="layer">
+                        <h3>Circuit Design</h3>
+                        <p>I created my first Circuit in college and ever since then I was hooked to this In my latest Design I was able to make a smart switch and design with EasyEDA</p>
+                         <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+            
+        </div>
+   </div>
+
+<!---------------CONTACT-------------->
+
+        <div id="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="contact-left">
+                                <h1 class="sub-title">Contact Me</h1>
+                                <p><i class="fa-regular fa-paper-plane"></i>prathameshnagralbusiness@gmail.com</p>
+                                <p><i class="fa-solid fa-phone"></i>+91 9869640360</p>
+                                <div class="social-icons">
+                                    <a href="https://www.linkedin.com/in/prathameshnagral"><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href="https://github.com/Prathameshnagral"><i class="fa-brands fa-github"></i></a>
+                                    <a href="https://twitter.com/prathamesh_nag"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="https://www.instagram.com/prathamesh_nagral/"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/prathamesh.nagral"><i class="fa-brands fa-facebook"></i></a>
+                                </div>
+                                <a href="images/my-cv.pdf" download class="btn btn2">Download My Resume</a>
+
+                            </div>
+                            <div class="contact-right">
+                                <form name="submit-to-google-sheet">
+                                    <input type="text" name="Name" placeholder="Your Name" required>
+                                    <input type="email" name="Email" placeholder="Your Email" required>
+                                    <textarea name="Message" placeholder="Your Message" required></textarea>
+                                    <button type="submit" class="btn btn2">Send</button>
+                                </form>
+                                <span id="msg"></span>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                <div class="copyright">
+                    <p>Copyright &copy; 2023 Prathamesh Nagral</p>
+                </div>    
+
+        </div>
+
+
+        <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+                }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+ 
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwtEtNzq4Uu2na_IIz7jCihOhYHxWU58honAtHPgvv-nYW7qWw06-FwG-proHC3Y9DISg/exec'
+    const form = document.forms["submit-to-google-sheet"]
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = "";
+            }, 5000);
+            form.reset()
+        } )
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
